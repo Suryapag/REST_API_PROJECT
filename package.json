@@ -4,7 +4,8 @@
   "description": "Learning",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/Suryapag/REST_API_PROJECT#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "supertest": "^7.1.4"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
   }
 }
